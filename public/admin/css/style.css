@@ -1,0 +1,15 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.container{
+    margin: auto;
+    width: 1440px;
+}
+
+header{
+    width: 1440px;
+    height: 100px;
+    background: rgb(95, 178, 255);
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
