@@ -30,7 +30,7 @@
 <body>
     <div class="container">
     <header>
-        <div class="logo"> <img src="logo.png" alt=""></div>
+        <div class="logo"> <img src="http://localhost/Demo_PRO1014_Nhom7/public/admin/image/logo.png" alt=""></div>
     </header>
     <main>
         <div class="nav">

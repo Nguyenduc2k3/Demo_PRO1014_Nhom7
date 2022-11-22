@@ -19,8 +19,8 @@
             <ul>
                 <li><a href="/views/admin/manage/users.php">Quản lí người dùng</a></li>
                 <li><a href="">Quản lí lịch đặt hàng</a></li>
-                <li><a href="">Danh sách sản phẩm</a></li>
-                <li><a href="">Thêm sản phẩm</a></li>
+                <li><a href="http://localhost/DEMO_PRO1014_NHOM7/views/admin/manage/product.php">Danh sách sản phẩm</a></li>
+                <li><a href="http://localhost/DEMO_PRO1014_NHOM7/views/admin/manage/addprd.php">Thêm sản phẩm</a></li>
                 <li><a href="">Bình luận</a></li>
                 <li><a href="">Thống kê</a></li>
                 <li><a href="login.php">Thoát</a></li>
