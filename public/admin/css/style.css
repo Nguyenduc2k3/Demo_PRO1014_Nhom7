@@ -2,6 +2,7 @@
 .container{
     margin: auto;
     max-width: 1440px;
+    text-align: center;
 }
 header{
     width: 1440px;
@@ -22,7 +23,7 @@ main{
     border-radius: 5px;
     margin-right: 20px;
     flex: 1;
-    padding-left: 45px;
+    padding-left: 0;
 }
 .section{
     width: 65%;
@@ -33,15 +34,19 @@ main{
 ul li{
     list-style: none;
     height: 35px;
+    padding-top: 7px;
+   
 }
 ul li a{
     text-decoration: none;
     color: black;
     font-size: 18px;
     font-weight: tahoma;
+    
+    
 }
-ul li a:hover {
-    color: red;
+ul li:hover {
+    background: red;
 }
 .logo img{
     height: 110px;
@@ -73,4 +78,32 @@ ul li a:hover {
     -moz-animation: my 700ms infinite;
     -o-animation: my 700ms infinite;
     animation: my 700ms infinite;
+}
+.login{
+    max-width: 1440px;
+    width: 100%;
+    text-align: center;
+    background: rgb(169, 230, 245);
+    padding-bottom: 100px;
+}
+.form{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(240, 77, 77);
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    margin:10px auto;
+}
+.form form{
+    display: grid;
+    grid-template-columns: repeat(1,1rf);
+    grid-gap: 10px;
+}
+/* product */
+.section h1 {
+    margin: 20px 0;
+}
+.show table {
+    width: 90%;
+    margin: auto;
 }
