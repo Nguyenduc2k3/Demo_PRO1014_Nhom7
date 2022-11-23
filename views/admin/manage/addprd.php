@@ -1,5 +1,6 @@
 <?php
     require 'connect.php';
+   
     $sql = " SELECT * FROM `categories`";
     $query = $connect -> prepare($sql);
     $query -> execute();
@@ -12,7 +13,8 @@
         $desc = $_POST['description'];
         $price = $_POST['price'];
         $cat_id = $_POST['categorys'];
-        $sql = "INSERT INTO `product` (`name_prd`, `price_prd`, `desc_pr`, `cat_id`) VALUES ('{$name}', '{$price}', '{$desc}', '{$cat_id}')";
+        $image = $_POST['file'];
+        $sql = "INSERT INTO `product` (`name_prd`, `price_prd`, `content_prd`, `id_categori`,`image`) VALUES ('{$name}', '{$price}', '{$desc}', '{$cat_id}','{$image}')";
         $connect -> exec($sql);
     }
 ?>

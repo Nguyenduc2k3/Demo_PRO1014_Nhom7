@@ -12,7 +12,7 @@
 <body>
     <div class="container">
     <header>
-        <div class="logo"> <img src="logo.png" alt=""></div>
+        <div class="logo"> <a href="http://localhost/DEMO_PRO1014_NHOM7/views/admin/block/home.php"><img src="http://localhost/Demo_PRO1014_Nhom7/public/admin/image/logo.png" alt=""></a></div>
     </header>
     <main>
         <div class="nav">
@@ -21,9 +21,9 @@
                 <li><a href="">Quản lí lịch đặt hàng</a></li>
                 <li><a href="http://localhost/DEMO_PRO1014_NHOM7/views/admin/manage/product.php">Danh sách sản phẩm</a></li>
                 <li><a href="http://localhost/DEMO_PRO1014_NHOM7/views/admin/manage/addprd.php">Thêm sản phẩm</a></li>
-                <li><a href="">Bình luận</a></li>
-                <li><a href="">Thống kê</a></li>
-                <li><a href="login.php">Thoát</a></li>
+                <li><a href="http://localhost/DEMO_PRO1014_NHOM7/views/admin/manage/comment.php">Bình luận</a></li>
+                <li><a href="http://localhost/DEMO_PRO1014_NHOM7/views/admin/manage/statistical.php">Thống kê</a></li>
+                <li><a href="http://localhost/DEMO_PRO1014_NHOM7/views/admin/block/login.php">Thoát</a></li>
             </ul>
         </div>
         <div class="section">
