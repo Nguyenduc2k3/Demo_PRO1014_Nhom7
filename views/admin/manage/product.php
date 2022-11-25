@@ -64,7 +64,7 @@
                     <td><?php echo $item['image'] ?></td>
                     <td><?php echo $item['content_prd'] ?></td>
                     <td>
-                    <a href="">Sửa</a> 
+                    <a href="update_prd.php?id=<?php echo $item['id_product']; ?>">Sửa</a> 
                     </td>
                 </tr>
                 <?php
